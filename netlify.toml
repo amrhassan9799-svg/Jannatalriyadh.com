@@ -4,3 +4,9 @@
 
 [build.environment]
   NITRO_PRESET = "netlify"
+
+[[redirects]]
+  from = "/*"
+  to = "https://jannatalriyadh-com.vercel.app/:splat"
+  status = 301
+  force = true
